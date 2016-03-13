@@ -22,7 +22,7 @@ public static void main(String[] args) throws ParseException{
 	 DateFormat df = DateFormat.getDateInstance();
 	 Date date=df.parse("2014/12/12");
 	dao.update("A".getBytes(), "Eleea@yahoo.com.tw", date, "Ellen");
-	CustomerBean bean=dao.select("Alex");
+	CustomerBean bean=dao.select("Babe");
 	System.out.println(bean);
 }
 
